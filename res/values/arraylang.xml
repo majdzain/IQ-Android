@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list">
+        <item >العربية</item>
+        <item >English</item>
+    </string-array>
+    <string-array name="valuse">
+        <item >arabic</item>
+        <item >english</item>
+    </string-array>
+</resources>

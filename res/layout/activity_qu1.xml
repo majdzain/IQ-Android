@@ -1,0 +1,137 @@
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/number1"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.majdzain.iq.Q1Activity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="445dp" >
+
+        <TextView
+            android:id="@+id/qtext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/qu1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/bnfsg" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/qtext2"
+            android:text="ماهو الشكل الذي يكمل المجموعة "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FF6600" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioGroup1"
+            android:layout_centerHorizontal="true" >
+
+            <Button
+                android:id="@+id/anse"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:text="إنسحاب"
+                android:textColor="@color/yellow" />
+
+            <Button
+                android:id="@+id/next1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:text="@string/next"
+                android:textColor="@color/red" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image_number_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/p1" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/image_number_question"
+            android:layout_marginTop="20dp" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/q1a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignRight="@+id/q1c"
+                    android:checked="true"
+                    android:text="A" />
+
+                <RadioButton
+                    android:id="@+id/q1b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_toLeftOf="@+id/q1a"
+                    android:layout_toRightOf="@+id/q1a"
+                    android:text="B" />
+
+                <RadioButton
+                    android:id="@+id/q1c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignRight="@+id/q1e"
+                    android:layout_below="@+id/q1a"
+                    android:text="C" />
+
+                <RadioButton
+                    android:id="@+id/q1d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/q1b"
+                    android:layout_toRightOf="@+id/q1c"
+                    android:text="D" />
+
+                <RadioButton
+                    android:id="@+id/q1e"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/q1c"
+                    android:layout_toLeftOf="@+id/q1f"
+                    android:text="E" />
+
+                <RadioButton
+                    android:id="@+id/q1f"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/q1d"
+                    android:layout_alignParentRight="true"
+                    android:text="F" />
+            </RelativeLayout>
+        </RadioGroup>
+    </RelativeLayout>
+
+</ScrollView>

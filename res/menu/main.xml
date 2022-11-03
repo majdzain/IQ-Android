@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.majdzain.iq.MainActivity" >
+    <item android:id="@+id/about" android:title="حول"></item>
+    <item android:id="@+id/settings" android:title="إعدادات"></item>
+    <item android:id="@+id/how_to_play" android:title="كيفية الإجابة"></item>
+    <item android:id="@+id/exit" android:title="خروج"></item>
+
+
+</menu>

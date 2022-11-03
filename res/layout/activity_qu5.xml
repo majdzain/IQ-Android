@@ -1,0 +1,130 @@
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/number5"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.majdzain.iq.Q5Activity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="430dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/qu5"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/bnfsg" />
+
+        <TextView
+            android:id="@+id/qtext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView1"
+            android:text="@string/qo5"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/blue" />
+
+        <ImageView
+            android:id="@+id/image_number_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/qtext2"
+            android:src="@drawable/p4" />
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/image_number_question" >
+
+            <RadioButton
+                android:id="@+id/q5a"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:checked="true"
+                android:text="A" />
+
+            <RadioButton
+                android:id="@+id/q5b"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/q5a"
+                android:layout_below="@+id/q5a"
+                android:text="B" />
+
+            <RadioButton
+                android:id="@+id/q5c"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/q5a"
+                android:layout_below="@+id/q5b"
+                android:text="C" />
+
+            <RadioButton
+                android:id="@+id/q5d"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/q5b"
+                android:layout_toRightOf="@+id/q5a"
+                android:text="D" />
+
+            <RadioButton
+                android:id="@+id/q5e"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/q5d"
+                android:layout_toRightOf="@+id/q5b"
+                android:text="E" />
+
+            <RadioButton
+                android:id="@+id/q5f"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/q5e"
+                android:layout_alignRight="@+id/q5d"
+                android:layout_below="@+id/q5e"
+                android:text="F" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/RelativeLayout1"
+            android:layout_centerHorizontal="true" >
+
+            <Button
+                android:id="@+id/anse"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:text="إنسحاب"
+                android:textColor="@color/yellow" />
+
+            <Button
+                android:id="@+id/nextq5"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:text="@string/next"
+                android:textColor="@color/red" />
+        </LinearLayout>
+
+"
+
+    </RelativeLayout>
+
+</ScrollView>

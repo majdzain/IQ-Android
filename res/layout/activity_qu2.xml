@@ -1,0 +1,106 @@
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/number2"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.majdzain.iq.Q2Activity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="427dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/qu2"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/bnfsg" />
+
+        <TextView
+            android:id="@+id/qtext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView1"
+            android:text="@string/qo2"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/blue" />
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/qtext2"
+            android:layout_centerHorizontal="true" >
+
+            <RadioButton
+                android:id="@+id/q27"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:checked="true"
+                android:text="7" />
+
+            <RadioButton
+                android:id="@+id/q29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/q27"
+                android:text="9" />
+
+            <RadioButton
+                android:id="@+id/q210"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/q29"
+                android:text="10" />
+
+            <RadioButton
+                android:id="@+id/q211"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/q210"
+                android:text="11" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/RelativeLayout1"
+            android:layout_centerHorizontal="true" >
+
+            <Button
+                android:id="@+id/anse"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:text="إنسحاب"
+                android:textColor="@color/yellow" />
+
+            <Button
+                android:id="@+id/nextq2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:text="@string/next"
+                android:textColor="@color/red" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

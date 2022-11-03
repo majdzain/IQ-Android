@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.majdzain.iq.LoginActivity" >
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/in8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="@string/name"
+        android:textColor="#0099FF"
+        android:textColorHint="@color/rmade" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="@string/age"
+        android:inputType="number"
+        android:textColor="@color/blue"
+        android:textColorHint="@color/rmade" />
+
+    <TextView
+        android:id="@+id/in8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/login"
+        android:textColor="@color/blue" />
+
+    <EditText
+        android:id="@+id/smart"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/age"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="@string/smart"
+        android:inputType="numberDecimal"
+        android:textColor="@color/blue"
+        android:textColorHint="@color/rmade" />
+
+    <ImageButton
+        android:id="@+id/startqu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/smart"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+        android:src="@drawable/button_selector_s" />
+
+</RelativeLayout>

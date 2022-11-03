@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.majdzain.iq"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".StartActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@android:style/Theme.Dialog" >
+            
+        </activity>
+        <activity
+            android:name=".Q1Activity"
+            android:label="@string/q1" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q1ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q2Activity"
+            android:label="@string/q2" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q2ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q3Activity"
+            android:label="@string/q3" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q3ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q4Activity"
+            android:label="@string/q4" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q4ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q5Activity"
+            android:label="@string/q5" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q5ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q6Activity"
+            android:label="@string/q6" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q6ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q7Activity"
+            android:label="@string/q7" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q7ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q8Activity"
+            android:label="@string/q8" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q8ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q9Activity"
+            android:label="@string/q9" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q9ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q10Activity"
+            android:label="@string/q10" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q10ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q11Activity"
+            android:label="@string/q11" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q11ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q12Activity"
+            android:label="@string/q12" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q12ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q13Activity"
+            android:label="@string/q13" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q13ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q14Activity"
+            android:label="@string/q14" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q14ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q15Activity"
+            android:label="@string/q15" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q15ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q16Activity"
+            android:label="@string/q16" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q16ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q17Activity"
+            android:label="@string/q17" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q17ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q18Activity"
+            android:label="@string/q18" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q18ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q19Activity"
+            android:label="@string/q19" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q19ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q20Activity"
+            android:label="@string/q20" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q20ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q21Activity"
+            android:label="@string/q21" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q21ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q22Activity"
+            android:label="@string/q22" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q22ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q23Activity"
+            android:label="@string/q23" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q23ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q24Activity"
+            android:label="@string/q24" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q24ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q25Activity"
+            android:label="@string/q25" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q25ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q26Activity"
+            android:label="@string/q26" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q26ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q27Activity"
+            android:label="@string/q27" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q27ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q28Activity"
+            android:label="@string/q28" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q28ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q29Activity"
+            android:label="@string/q29" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q29ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q30Activity"
+            android:label="@string/q30" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q30ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q31Activity"
+            android:label="@string/q31" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q31ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q32Activity"
+            android:label="@string/q32" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q32ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q33Activity"
+            android:label="@string/q33" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q33ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q34Activity"
+            android:label="@string/q34" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q34ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q35Activity"
+            android:label="@string/q35" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q35ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q36Activity"
+            android:label="@string/q36" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q36ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q37Activity"
+            android:label="@string/q37" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q37ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q38Activity"
+            android:label="@string/q38" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q38ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q39Activity"
+            android:label="@string/q39" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q39ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Q40Activity"
+            android:label="@string/title_activity_q40" >
+            <intent-filter >
+                <action android:name="com.majdzain.iq.Q40ACTIVITY"/>
+                
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ResultActivity"
+            android:label="@string/title_activity_result" >
+        </activity>
+        <activity
+            android:name=".Preference"
+            android:label="@string/settings" >
+        </activity>
+        <activity android:name=".Howplay" >
+        </activity>
+        <activity
+            android:name=".BasicActivity"
+            android:label="@string/title_activity_basic" >
+        </activity>
+    </application>
+
+</manifest>

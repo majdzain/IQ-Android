@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="soundstart"
+        android:summary="هل تريد أن يعمل صوت البداية؟"
+        android:title="صوت البداية" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="soundbutton"
+        android:summary="هل تريد أن يعمل صوت الأزرار؟"
+        android:title="صوت الأزرار" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="soundcheck"
+        android:summary="هل تريد أن يعمل صوت الأختيارات؟"
+        android:title="صوت الأختيارات" />
+
+    <ListPreference
+        android:key="language"
+        android:summary="لغة البرنامج"
+        android:title="اللغة" 
+        android:entries="@array/list"
+        android:entryValues="@array/valuse"/>
+
+</PreferenceScreen>
